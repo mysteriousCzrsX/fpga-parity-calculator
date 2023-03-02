@@ -24,7 +24,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
+--use IEEE.NUMERIC_STD.ALL;echo 2a19 1009 > /sys/bus/usb-serial/drivers/ftdi_sio/new_id
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
@@ -42,5 +42,5 @@ architecture Behavioral of top is
 begin
     led7_an_o <= "1110";
     parity_bit <= sw_i(7) xor sw_i(6) xor sw_i(5) xor sw_i(4) xor sw_i(3) xor sw_i(2) xor sw_i(1) xor sw_i(0);
-    led7_seg_o <= "01100001" when (parity_bit = "0") else "00000011"
+    led7_seg_o <= "01100001" when (parity_bit = '0') else "00000011"; -- 0 = 00000011 E = 01100001
 end Behavioral;
