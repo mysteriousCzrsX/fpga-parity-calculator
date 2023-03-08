@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date             : Thu Mar  2 18:01:19 2023
+| Date             : Fri Mar  3 13:42:11 2023
 | Host             : Melchior-1 running 64-bit Arch Linux
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 8.241        |
+| Total On-Chip Power (W)  | 8.245        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 8.154        |
+| Dynamic (W)              | 8.157        |
 | Device Static (W)        | 0.088        |
 | Effective TJA (C/W)      | 2.8          |
 | Max Ambient (C)          | 61.8         |
@@ -55,10 +55,10 @@ Table of Contents
 | Slice Logic    |     0.021 |        5 |       --- |             --- |
 |   LUT as Logic |     0.021 |        2 |     32600 |           <0.01 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.231 |       11 |       --- |             --- |
+| Signals        |     0.235 |       11 |       --- |             --- |
 | I/O            |     7.901 |       20 |       250 |            8.00 |
 | Static Power   |     0.088 |          |           |                 |
-| Total          |     8.241 |          |           |                 |
+| Total          |     8.245 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,7 +68,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.308 |       0.285 |      0.023 |
+| Vccint    |       1.000 |     0.312 |       0.289 |      0.023 |
 | Vccaux    |       1.800 |     0.302 |       0.288 |      0.014 |
 | Vcco33    |       3.300 |     2.228 |       2.227 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -135,7 +135,7 @@ Table of Contents
 +------+-----------+
 | Name | Power (W) |
 +------+-----------+
-| top  |     8.154 |
+| top  |     8.157 |
 +------+-----------+
 
 

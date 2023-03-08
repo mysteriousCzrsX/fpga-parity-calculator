@@ -176,45 +176,45 @@ set_property -dict { PACKAGE_PIN "M15"   IOSTANDARD LVCMOS33    SLEW FAST} [get_
 set_property src_info {type:XDC file:1 line:125 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN "M16"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { LED[7] }];                      # IO_L24N_T3_RS0_15             Sch = LED7
 set_property src_info {type:XDC file:1 line:130 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "B21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[0] }];                   # IO_L21P_T3_DQS_16             Sch = DP0
+set_property -dict { PACKAGE_PIN "B21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[0] }];                   # IO_L21P_T3_DQS_16             Sch = DP0
 set_property src_info {type:XDC file:1 line:131 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "A21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[1] }];                   # IO_L21N_T3_DQS_16             Sch = DP1
+set_property -dict { PACKAGE_PIN "A21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[1] }];                   # IO_L21N_T3_DQS_16             Sch = DP1
 set_property src_info {type:XDC file:1 line:132 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "E22"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[2] }];                   # IO_L22P_T3_16                 Sch = DP2
+set_property -dict { PACKAGE_PIN "E22"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[2] }];                   # IO_L22P_T3_16                 Sch = DP2
 set_property src_info {type:XDC file:1 line:133 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "D22"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[3] }];                   # IO_L22N_T3_16                 Sch = DP3
+set_property -dict { PACKAGE_PIN "D22"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[3] }];                   # IO_L22N_T3_16                 Sch = DP3
 set_property src_info {type:XDC file:1 line:134 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "E21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[4] }];                   # IO_L23P_T3_16                 Sch = DP4
+set_property -dict { PACKAGE_PIN "E21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[4] }];                   # IO_L23P_T3_16                 Sch = DP4
 set_property src_info {type:XDC file:1 line:135 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "D21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[5] }];                   # IO_L23N_T3_16                 Sch = DP5
+set_property -dict { PACKAGE_PIN "D21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[5] }];                   # IO_L23N_T3_16                 Sch = DP5
 set_property src_info {type:XDC file:1 line:136 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "G21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[6] }];                   # IO_L24P_T3_16                 Sch = DP6
+set_property -dict { PACKAGE_PIN "G21"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[6] }];                   # IO_L24P_T3_16                 Sch = DP6
 set_property src_info {type:XDC file:1 line:137 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "G22"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { sw_i[7] }];                   # IO_L24N_T3_16                 Sch = DP7
+set_property -dict { PACKAGE_PIN "G22"   IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { dip_sw[7] }];                   # IO_L24N_T3_16                 Sch = DP7
 set_property src_info {type:XDC file:1 line:142 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "N3"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_an_o[0] }];                   # IO_L19N_T3_VREF_35            Sch = 7_SEG1_EN
+set_property -dict { PACKAGE_PIN "N3"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { enable[0] }];                   # IO_L19N_T3_VREF_35            Sch = 7_SEG1_EN
 set_property src_info {type:XDC file:1 line:143 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "R1"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_an_o[1] }];                   # IO_L20P_T3_35                 Sch = 7_SEG2_EN
+set_property -dict { PACKAGE_PIN "R1"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { enable[1] }];                   # IO_L20P_T3_35                 Sch = 7_SEG2_EN
 set_property src_info {type:XDC file:1 line:144 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "P1"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_an_o[2] }];                   # IO_L20N_T3_35                 Sch = 7_SEG3_EN
+set_property -dict { PACKAGE_PIN "P1"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { enable[2] }];                   # IO_L20N_T3_35                 Sch = 7_SEG3_EN
 set_property src_info {type:XDC file:1 line:145 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "L4"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_an_o[3] }];                   # IO_L18N_T2_35                 Sch = 7_SEG4_EN
+set_property -dict { PACKAGE_PIN "L4"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { enable[3] }];                   # IO_L18N_T2_35                 Sch = 7_SEG4_EN
 set_property src_info {type:XDC file:1 line:146 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "P4"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[0] }];            # IO_L21N_T3_DQS_35             Sch = 7SEG_0
+set_property -dict { PACKAGE_PIN "P4"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[0] }];            # IO_L21N_T3_DQS_35             Sch = 7SEG_0
 set_property src_info {type:XDC file:1 line:147 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "N4"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[1] }];            # IO_L19P_T3_35                 Sch = 7SEG_1
+set_property -dict { PACKAGE_PIN "N4"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[1] }];            # IO_L19P_T3_35                 Sch = 7SEG_1
 set_property src_info {type:XDC file:1 line:148 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "M3"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[2] }];            # IO_L16P_T2_35                 Sch = 7SEG_2
+set_property -dict { PACKAGE_PIN "M3"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[2] }];            # IO_L16P_T2_35                 Sch = 7SEG_2
 set_property src_info {type:XDC file:1 line:149 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "M5"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[3] }];            # IO_L23N_T3_35                 Sch = 7SEG_3
+set_property -dict { PACKAGE_PIN "M5"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[3] }];            # IO_L23N_T3_35                 Sch = 7SEG_3
 set_property src_info {type:XDC file:1 line:150 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "L5"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[4] }];            # IO_L18P_T2_35                 Sch = 7SEG_4
+set_property -dict { PACKAGE_PIN "L5"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[4] }];            # IO_L18P_T2_35                 Sch = 7SEG_4
 set_property src_info {type:XDC file:1 line:151 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "L6"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[5] }];            # IO_25_35                      Sch = 7SEG_5
+set_property -dict { PACKAGE_PIN "L6"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[5] }];            # IO_25_35                      Sch = 7SEG_5
 set_property src_info {type:XDC file:1 line:152 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "M6"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[6] }];            # IO_L23P_T3_35                 Sch = 7SEG_6
+set_property -dict { PACKAGE_PIN "M6"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[6] }];            # IO_L23P_T3_35                 Sch = 7SEG_6
 set_property src_info {type:XDC file:1 line:153 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN "P5"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { led7_seg_o[7] }];            # IO_L21P_T3_DQS_35             Sch = 7SEG_7
+set_property -dict { PACKAGE_PIN "P5"    IOSTANDARD LVCMOS33    SLEW FAST} [get_ports { seven_segment[7] }];            # IO_L21P_T3_DQS_35             Sch = 7SEG_7
 set_property src_info {type:XDC file:1 line:158 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN "N5"   IOSTANDARD LVCMOS33 } [get_ports { iic_rtl_scl_io }];                           # IO_L24N_T3_35                 Sch = EEPROM_SCL
 set_property src_info {type:XDC file:1 line:159 export:INPUT save:INPUT read:READ} [current_design]
